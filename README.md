@@ -1,51 +1,35 @@
-# AcodeX Browser
-
-Acode plugin that provides a compact floating web browser window above the editor.
-
-**Developer:** Chanwit™  
-**Author:** Chanwit™  
-**Copyright:** Copyright © 2026 Chanwit™  
-**License:** Mozilla Public License 2.0 (MPL-2.0)
-
-## Features
-
-- Floating browser window that can be moved and resized
-- Right-edge tab to show or hide the browser window
-- Keyboard shortcut: `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Alt+B` (macOS)
-- Enable/disable switch; its state is remembered
-- Address bar for URLs and search terms
-- Back, Home (Google), Reload, and search-engine selection
-- Search engines: Google, Bing, Mojeek, and Wikipedia
-- Zoom in, zoom out, and reset zoom controls
-- Thai/English interface language switch
-- Window position and size are remembered
-- Command palette actions to toggle the browser and show/hide its window
-
-## Installation
-
-1. Download or clone this repository.
-2. Open Acode and install the plugin using the plugin installation workflow supported by your Acode version.
-3. Open the **AcodeX Browser** tab on the right edge of the screen.
-
-## Usage
-
-- Tap the right-edge **AcodeX Browser** tab to show or hide the window.
-- Use `Ctrl+Alt+B` or `Cmd+Alt+B` to toggle the window.
-- Enter a URL or search phrase in the address bar and press Enter or tap the Go button.
-- Use the toolbar to navigate, change the search engine, adjust zoom, or switch the interface language.
-
-## Compatibility notes
-
-Some websites prevent being displayed inside an iframe. If a page does not load, use the external-browser button in the window header to open the current page in the device browser.
-
-The shortcut is handled by the host document. Keystrokes typed inside the embedded web page itself cannot be intercepted by the plugin.
-
-## License
-
-This project is licensed under the **Mozilla Public License 2.0**. See the [`LICENSE`](LICENSE) file for the complete license text.
-
-The MPL-2.0 is a file-level copyleft license: when distributing covered source files or modifications, the MPL's source-distribution requirements apply to those files. Separate files may be combined into a larger work under the terms described in the license.
-
-## Copyright
-
+AcodeX Browser
+ปลั๊กอิน Acode ที่มีหน้าต่างเว็บเบราว์เซอร์แบบลอยตัวขนาดกะทัดรัดเหนือตัวแก้ไขโค้ด
+ผู้พัฒนา: Chanwit™
+ผู้เขียน: Chanwit™
+ลิขสิทธิ์: Copyright © 2026 Chanwit™
+สัญญาอนุญาต: Mozilla Public License 2.0 (MPL-2.0)
+คุณสมบัติ
+ * หน้าต่างเบราว์เซอร์แบบลอยตัวที่สามารถเคลื่อนย้ายและปรับขนาดได้
+ * แท็บขอบขวาเพื่อแสดงหรือซ่อนหน้าต่างเบราว์เซอร์
+ * แป้นพิมพ์ลัด: Ctrl+Alt+B (Windows/Linux) หรือ Cmd+Alt+B (macOS)
+ * สวิตช์เปิด/ปิดการใช้งาน โดยจะจดจำสถานะไว้
+ * แถบที่อยู่ (Address bar) สำหรับ URL และคำค้นหา
+ * ปุ่มย้อนกลับ, หน้าแรก (Google), โหลดใหม่ และการเลือกเครื่องมือค้นหา
+ * เครื่องมือค้นหา: Google, Bing, Mojeek และ Wikipedia
+ * การควบคุมการซูมเข้า, ซูมออก และรีเซ็ตการซูม
+ * สวิตช์สลับภาษาอินเทอร์เฟซไทย/อังกฤษ
+ * จดจำตำแหน่งและขนาดของหน้าต่าง
+ * คำสั่งใน Command palette เพื่อสลับการเปิด/ปิดเบราว์เซอร์และแสดง/ซ่อนหน้าต่าง
+การติดตั้ง
+ * ดาวน์โหลดหรือโคลนที่เก็บข้อมูล (repository) นี้
+ * เปิด Acode และติดตั้งปลั๊กอินโดยใช้ขั้นตอนการติดตั้งปลั๊กอินที่รองรับสำหรับ Acode ในเวอร์ชันของคุณ
+ * เปิดแท็บ AcodeX Browser ที่ขอบขวาของหน้าจอ
+การใช้งาน
+ * แตะแท็บ AcodeX Browser ที่ขอบขวาเพื่อแสดงหรือซ่อนหน้าต่าง
+ * ใช้ Ctrl+Alt+B หรือ Cmd+Alt+B เพื่อสลับการแสดงผลหน้าต่าง
+ * ป้อน URL หรือวลีค้นหาในแถบที่อยู่ แล้วกด Enter หรือแตะปุ่ม Go
+ * ใช้แถบเครื่องมือเพื่อนำทาง, เปลี่ยนเครื่องมือค้นหา, ปรับการซูม หรือสลับภาษาของอินเทอร์เฟซ
+หมายเหตุเรื่องความเข้ากันได้
+บางเว็บไซต์ป้องกันไม่ให้แสดงผลภายใน iframe หากหน้าเว็บไม่โหลด ให้ใช้ปุ่มเบราว์เซอร์ภายนอกที่ส่วนหัวของหน้าต่างเพื่อเปิดหน้าปัจจุบันในเบราว์เซอร์ของอุปกรณ์
+แป้นพิมพ์ลัดถูกจัดการโดยเอกสารโฮสต์ (host document) การกดแป้นพิมพ์ที่พิมพ์ภายในหน้าเว็บที่ฝังตัวอยู่จะไม่สามารถถูกดักจับโดยปลั๊กอินได้
+สัญญาอนุญาต
+โปรเจกต์นี้ได้รับอนุญาตภายใต้ Mozilla Public License 2.0 ดูไฟล์ LICENSE สำหรับข้อความสัญญาอนุญาตฉบับสมบูรณ์
+MPL-2.0 เป็นสัญญาอนุญาตแบบ copyleft ระดับไฟล์: เมื่อมีการแจกจ่ายไฟล์ซอร์สโค้ดที่ครอบคลุมหรือมีการปรับเปลี่ยน ข้อกำหนดการแจกจ่ายซอร์สของ MPL จะมีผลบังคับใช้กับไฟล์เหล่านั้น ไฟล์ที่แยกจากกันอาจถูกนำมารวมเข้าเป็นผลงานที่ใหญ่ขึ้นภายใต้ข้อกำหนดที่อธิบายไว้ในสัญญาอนุญาต
+ลิขสิทธิ์
 Copyright © 2026 Chanwit™
