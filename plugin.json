@@ -1,0 +1,15 @@
+{
+  "id": "com.developer.webbrowser",
+  "name": "AcodeX Browser",
+  "main": "main.js",
+  "version": "1.2.3",
+  "readme": "README.md",
+  "icon": "icon.png",
+  "files": [],
+  "minVersionCode": 290,
+  "author": {
+    "name": "Chanwit™",
+    "email": "",
+    "github": ""
+  }
+}
